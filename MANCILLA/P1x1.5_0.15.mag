@@ -1,0 +1,9 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1733616804
+use sky130_fd_pr__pfet_01v8_AERV9B  sky130_fd_pr__pfet_01v8_AERV9B_0
+timestamp 1733616804
+transform 1 0 158 0 1 281
+box -211 -334 211 334
+<< end >>

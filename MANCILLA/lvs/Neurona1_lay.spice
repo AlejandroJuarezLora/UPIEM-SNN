@@ -1,0 +1,91 @@
+* NGSPICE file created from NeuronaFinal.ext - technology: sky130B
+
+.subckt sky130_fd_pr__pfet_01v8_AERV9B G D S B
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.15
+.ends
+
+.subckt P1x1.5<0.15 sky130_fd_pr__pfet_01v8_AERV9B_0/S sky130_fd_pr__pfet_01v8_AERV9B_0/G
++ sky130_fd_pr__pfet_01v8_AERV9B_0/D sky130_fd_pr__pfet_01v8_AERV9B_0/B
+Xsky130_fd_pr__pfet_01v8_AERV9B_0 sky130_fd_pr__pfet_01v8_AERV9B_0/G sky130_fd_pr__pfet_01v8_AERV9B_0/D
++ sky130_fd_pr__pfet_01v8_AERV9B_0/S sky130_fd_pr__pfet_01v8_AERV9B_0/B sky130_fd_pr__pfet_01v8_AERV9B
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_H96DE7 G D S B
+X0 D G S B sky130_fd_pr__pfet_01v8 ad=0.17655 pd=1.4 as=0.17655 ps=1.4 w=1.07 l=0.15
+X1 D G S B sky130_fd_pr__pfet_01v8 ad=0.17655 pd=1.4 as=0.17655 ps=1.4 w=1.07 l=0.15
+X2 S G D B sky130_fd_pr__pfet_01v8 ad=0.17655 pd=1.4 as=0.17655 ps=1.4 w=1.07 l=0.15
+X3 S G D B sky130_fd_pr__pfet_01v8 ad=0.17655 pd=1.4 as=0.17655 ps=1.4 w=1.07 l=0.15
+X4 D G S B sky130_fd_pr__pfet_01v8 ad=0.17655 pd=1.4 as=0.17655 ps=1.4 w=1.07 l=0.15
+X5 S G D B sky130_fd_pr__pfet_01v8 ad=0.17655 pd=1.4 as=0.3317 ps=2.76 w=1.07 l=0.15
+X6 S G D B sky130_fd_pr__pfet_01v8 ad=0.3317 pd=2.76 as=0.17655 ps=1.4 w=1.07 l=0.15
+.ends
+
+.subckt P2x7.5<0.15 sky130_fd_pr__pfet_01v8_H96DE7_0/S sky130_fd_pr__pfet_01v8_H96DE7_0/G
++ sky130_fd_pr__pfet_01v8_H96DE7_0/D sky130_fd_pr__pfet_01v8_H96DE7_0/B
+Xsky130_fd_pr__pfet_01v8_H96DE7_0 sky130_fd_pr__pfet_01v8_H96DE7_0/G sky130_fd_pr__pfet_01v8_H96DE7_0/D
++ sky130_fd_pr__pfet_01v8_H96DE7_0/S sky130_fd_pr__pfet_01v8_H96DE7_0/B sky130_fd_pr__pfet_01v8_H96DE7
+.ends
+
+.subckt sky130_fd_pr__cap_mim_m3_1_5Y6EN5 c1_n840_n694# m3_n880_n734#
+X0 c1_n840_n694# m3_n880_n734# sky130_fd_pr__cap_mim_m3_1 l=6.94 w=6.94
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_H4FFAF G D S B
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt N1x1<1 sky130_fd_pr__nfet_01v8_H4FFAF_0/S sky130_fd_pr__nfet_01v8_H4FFAF_0/G
++ sky130_fd_pr__nfet_01v8_H4FFAF_0/D VSUBS
+Xsky130_fd_pr__nfet_01v8_H4FFAF_0 sky130_fd_pr__nfet_01v8_H4FFAF_0/G sky130_fd_pr__nfet_01v8_H4FFAF_0/D
++ sky130_fd_pr__nfet_01v8_H4FFAF_0/S VSUBS sky130_fd_pr__nfet_01v8_H4FFAF
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_ELJW9B G D S B
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+.ends
+
+.subckt P1x2<0.15 sky130_fd_pr__pfet_01v8_ELJW9B_0/G sky130_fd_pr__pfet_01v8_ELJW9B_0/D
++ sky130_fd_pr__pfet_01v8_ELJW9B_0/B sky130_fd_pr__pfet_01v8_ELJW9B_0/S
+Xsky130_fd_pr__pfet_01v8_ELJW9B_0 sky130_fd_pr__pfet_01v8_ELJW9B_0/G sky130_fd_pr__pfet_01v8_ELJW9B_0/D
++ sky130_fd_pr__pfet_01v8_ELJW9B_0/S sky130_fd_pr__pfet_01v8_ELJW9B_0/B sky130_fd_pr__pfet_01v8_ELJW9B
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_Q6V758 G D S B
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=8.2
+X1 S G D B sky130_fd_pr__pfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=8.2
+.ends
+
+.subckt P1x1<10 sky130_fd_pr__pfet_01v8_Q6V758_0/S sky130_fd_pr__pfet_01v8_Q6V758_0/G
++ sky130_fd_pr__pfet_01v8_Q6V758_0/D sky130_fd_pr__pfet_01v8_Q6V758_0/B
+Xsky130_fd_pr__pfet_01v8_Q6V758_0 sky130_fd_pr__pfet_01v8_Q6V758_0/G sky130_fd_pr__pfet_01v8_Q6V758_0/D
++ sky130_fd_pr__pfet_01v8_Q6V758_0/S sky130_fd_pr__pfet_01v8_Q6V758_0/B sky130_fd_pr__pfet_01v8_Q6V758
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_RZ9R45 G D S B
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt N1x1<0.15 sky130_fd_pr__nfet_01v8_RZ9R45_0/S sky130_fd_pr__nfet_01v8_RZ9R45_0/G
++ sky130_fd_pr__nfet_01v8_RZ9R45_0/D VSUBS
+Xsky130_fd_pr__nfet_01v8_RZ9R45_0 sky130_fd_pr__nfet_01v8_RZ9R45_0/G sky130_fd_pr__nfet_01v8_RZ9R45_0/D
++ sky130_fd_pr__nfet_01v8_RZ9R45_0/S VSUBS sky130_fd_pr__nfet_01v8_RZ9R45
+.ends
+
+.subckt NeuronaFinal Vout I100n I10n Iext Vdd Vss
+XP1x1.5<0.15_0 Vm N1x1<1_0/sky130_fd_pr__nfet_01v8_H4FFAF_0/D I10n Vdd P1x1.5<0.15
+XP2x7.5<0.15_0 Vm N1x1<1_0/sky130_fd_pr__nfet_01v8_H4FFAF_0/D N1x1<1_0/sky130_fd_pr__nfet_01v8_H4FFAF_0/D
++ Vdd P2x7.5<0.15
+Xsky130_fd_pr__cap_mim_m3_1_5Y6EN5_0 Vm Vss sky130_fd_pr__cap_mim_m3_1_5Y6EN5
+XP2x7.5<0.15_1 Vm N1x1<1_0/sky130_fd_pr__nfet_01v8_H4FFAF_0/D N1x1<1_0/sky130_fd_pr__nfet_01v8_H4FFAF_0/D
++ Vdd P2x7.5<0.15
+XN1x1<1_0 Vss I10n N1x1<1_0/sky130_fd_pr__nfet_01v8_H4FFAF_0/D Vss N1x1<1
+XP1x2<0.15_0 I100n Vout Vdd Vdd P1x2<0.15
+XP1x2<0.15_1 I10n Vm Vdd Iext P1x2<0.15
+XP1x1<10_0 Vm I10n I10n Vdd P1x1<10
+XN1x1<0.15_0 N1x1<0.15_1/sky130_fd_pr__nfet_01v8_RZ9R45_0/G I10n Vout Vss N1x1<0.15
+XN1x1<0.15_1 Iext N1x1<0.15_1/sky130_fd_pr__nfet_01v8_RZ9R45_0/G N1x1<0.15_1/sky130_fd_pr__nfet_01v8_RZ9R45_0/G
++ Vss N1x1<0.15
+XN1x1<0.15_2 Vss I10n I100n Vss N1x1<0.15
+XN1x1<0.15_3 Vss I100n Vout Vss N1x1<0.15
+.ends
+

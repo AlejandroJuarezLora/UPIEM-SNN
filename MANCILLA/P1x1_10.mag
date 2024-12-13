@@ -1,0 +1,9 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1733616549
+use sky130_fd_pr__pfet_01v8_Q6V758  sky130_fd_pr__pfet_01v8_Q6V758_0
+timestamp 1733616549
+transform 1 0 963 0 1 297
+box -1016 -350 1016 350
+<< end >>

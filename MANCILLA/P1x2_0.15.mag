@@ -1,0 +1,9 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1733616004
+use sky130_fd_pr__pfet_01v8_ELJW9B  sky130_fd_pr__pfet_01v8_ELJW9B_0
+timestamp 1733616004
+transform 1 0 365 0 1 478
+box -211 -384 211 384
+<< end >>

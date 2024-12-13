@@ -1,0 +1,95 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1      |Circuit 2: sky130_fd_pr__cap_mim_m3_1      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Flattening unmatched subcell P1x1.5<0.15 in circuit NeuronaFinal (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_AERV9B in circuit NeuronaFinal (1)(1 instance)
+Flattening unmatched subcell P2x7.5<0.15 in circuit NeuronaFinal (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_H96DE7 in circuit NeuronaFinal (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_5Y6EN5 in circuit NeuronaFinal (1)(1 instance)
+Flattening unmatched subcell N1x1<1 in circuit NeuronaFinal (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_H4FFAF in circuit NeuronaFinal (1)(1 instance)
+Flattening unmatched subcell P1x2<0.15 in circuit NeuronaFinal (1)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_ELJW9B in circuit NeuronaFinal (1)(2 instances)
+Flattening unmatched subcell P1x1<10 in circuit NeuronaFinal (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_Q6V758 in circuit NeuronaFinal (1)(1 instance)
+Flattening unmatched subcell N1x1<0.15 in circuit NeuronaFinal (1)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_RZ9R45 in circuit NeuronaFinal (1)(4 instances)
+
+Class NeuronaFinal (1):  Merged 14 parallel devices.
+Subcircuit summary:
+Circuit 1: NeuronaFinal                    |Circuit 2: NeuronaFinal                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (6->5)             |sky130_fd_pr__pfet_01v8 (19->5)            
+sky130_fd_pr__nfet_01v8 (5)                |sky130_fd_pr__nfet_01v8 (5)                
+sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
+Number of devices: 11                      |Number of devices: 11                      
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__cap_mim_m3_1:C1 vs. sky130_fd_pr__cap_mim_m3_1_5Y6EN5_0/sky130_fd_pr__cap_mim_m3_1:0:
+ L circuit1: 23   circuit2: 6.94   (delta=107%, cutoff=1%)
+ W circuit1: 22   circuit2: 6.94   (delta=104%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:M8 vs. N1x1<0.15_1//sky130_fd_pr__nfet_01v8_RZ9R45_0/sky130_fd_pr__nfet_01v8:0:
+ L circuit1: 1   circuit2: 0.15   (delta=148%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:M1 vs. P1x1<10_0//sky130_fd_pr__pfet_01v8_Q6V758_0/sky130_fd_pr__pfet_01v8:0:
+ W circuit1: 1   circuit2: 0.84   (delta=17.4%, cutoff=1%)
+ L circuit1: 10   circuit2: 8.2   (delta=19.8%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: NeuronaFinal                    |Circuit 2: NeuronaFinal                    
+-------------------------------------------|-------------------------------------------
+Iext                                       |Iext                                       
+I100n                                      |I100n                                      
+Vout                                       |Vout                                       
+Vss                                        |Vss                                        
+Vdd                                        |Vdd                                        
+I10n                                       |I10n                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes NeuronaFinal and NeuronaFinal are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ NeuronaFinal
